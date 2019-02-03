@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/beschreibungid"
+        android:actionLayout="@color/colorAccent"
+        android:title="@string/Beschreibung" />
+
+
+    <item
+        android:id="@+id/hilfeid"
+        android:title="Hilfe" />
+
+    <item
+        android:id="@+id/faqs"
+        android:actionLayout="@color/colorAccent"
+        android:title="@string/menufaq" />
+
+
+    <item
+        android:id="@+id/impressum"
+        android:title="@string/menuimpressum" />
+
+
+    <item
+        android:id="@+id/close"
+        android:title="@string/menubeenden" />
+
+
+    <item
+        android:id="@+id/actionbarlogo"
+        android:icon="@mipmap/logoactionbar"
+        android:orderInCategory="100"
+        android:title="actionbarlogo"
+        app:showAsAction="always" />
+
+
+</menu>

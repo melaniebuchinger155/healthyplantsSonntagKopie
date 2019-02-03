@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="buchinger.melanie.healthyplants">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logohp144"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logohp144"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".closeactivity" />
+        <activity
+            android:name=".faq1activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".faq2activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".faq3activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addplantsActivity"
+            android:label="@string/title_activity_addplants"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".meinGartenActivity"
+            android:label="@string/title_activity_mein_garten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HilfeActivity2"
+            android:label="@string/title_activity_hilfe2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BeschreibungActivitiy"
+            android:label="@string/title_activity_beschreibung_activitiy"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".faqActivity"
+            android:label="@string/title_activity_faq"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Impressum_activity"
+            android:label="@string/title_activity_impressum_activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

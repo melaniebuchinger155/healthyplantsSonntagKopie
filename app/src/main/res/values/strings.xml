@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Healthy Plants</string>
+
+    <string name="Beenden">Beenden</string>
+    <string name="Impressum">Impressum</string>
+    <string name="impressumtext">
+        Healthy Plants\n
+        Geschäftsführerin: Melanie Buchinger\n
+        \n
+        Anschrift:   \n
+        Feldstr. 6\n
+        91564 Neuendettelsau\n
+        \n
+        Matrikelnummer: 123338\n
+        \n
+        Mail: melanie-ma.buchinger@hs-ansbach.de\n
+        Tel. 0171 644 89 56\n
+        \n
+        zuständiges Finanzamt: Ansbach\n
+        Steuernummer: 200 60 80 70\n
+        \n
+        Bankverbindung: DE 20 7650 0000 0000 123456\n
+        BIC: BYLADEM1ANS\n</string>
+
+    <string name="helptext">
+        Healthy Plants\n
+        \n
+        Kundenhotline: 0800 47 86 85 86\n
+        \n
+        Mail: hilfe@healthyplants.de\n
+        \n
+        Anschrift:\n  Feldstr. 6\n
+        91564 Neuendettelsau</string>
+
+
+    <string name="pflanzenhinzufuegen">Pflanze hinzufügen</string>
+
+
+    <string name="menuhilfe">Hilfe</string>
+    <string name="menufaq">FAQ´s</string>
+    <string name="menubeenden">Beenden</string>
+    <string name="menuimpressum">Impressum</string>
+    <string name="faqsheadline">FAQ´s</string>
+    <string name="meinGarten">mein Garten</string>
+    <string name="appbeschreibung">
+        Grüner Daumen Fehlanzeige? \n
+        \n
+        Überwachen Sie Ihre Zimmerpflanzen mit Hilfe\n
+        von Healthy Plants und vergessen Sie nie wieder\n
+        rechtzeitig zu gießen.\n
+        Zu Beginn legen Sie sich\n
+        Ihren eigenen kleinen Garten an.\n
+        Die Pflanzendatenbank enthält über 120 Pflanzen\n
+        aus allen Kategorien (Blumen, Kräuter, Gemüse...).\n
+        Zu jeder Pflanze kennt die App auch\n
+        interessante Pflegetipps.\n
+        Um Verwechslungen zu vermeiden,\n
+        kann jeder Pflanze ein Bild \n
+        und ein zugehöriges NFC Tag zugeordnet werden.\n
+        Anschließend muss nur noch das gewünschte\n
+        Gießintervall bestimmt werden.\n
+        \n
+        Das ist alles.\n
+        \n
+        Healthy Plants benachrichtigt Sie zuverlässig,\n
+        wenn Ihre Pflanze Wasser braucht.\n
+        \n
+        So kann nichts mehr schief gehen.\n
+        Viel Spaß beim gärteln.</string>
+
+    <string name="Beschreibung">Beschreibung</string>
+
+    <string name="Answerfaq1">1. Gerät neu starten\n
+        \n
+        2. Internetverbindung prüfen\n
+        \n
+        3. App-Benachrichtigungen prüfen\n
+        \n
+        4. Hintergrunddaten beschränken» deaktivieren\n
+        \n
+        5. Batteriespar-Funktion deaktivieren\n
+        \n
+        6. Benachrichtigungen zurücksetzen\n
+        \n
+        7. Push-Token zurücksetzen\n
+        \n
+        8. Google Play-Dienste aktualisieren\n</string>
+    <string name="Mailadresse">hilfe@healthyplants.de</string>
+    <string name="Kundenhotline">Kundenhotline: 0800 47 86 85 86</string>
+    <string name="Fallsnichthilft">
+        \nFalls das alles nichts hilft,\n setze dich bitte mit unserer Kundenhotline\n
+        in Verbindung oder sende uns eine Mail.\n
+        \n
+        Kundenhotline: 0800 47 86 85 86 \n
+        \n Mail: hilfe@healthyplants.de </string>
+    <string name="answerfaq2">Mit den nachfolgenden Tipps ist das Problem schnell wieder behoben.\n
+        \n
+        1. Achten Sie darauf, keine Schutzhüllen oder Cases zu verwenden.\n
+        \n
+        2. Zudem sollten Sie keine metallischen Gegenstände in der Nähe des NFC-Symbols platzieren.\n
+        \n
+        3. Ebenso sollten Sie darauf achten, einen originalen Akku von Ihrem Smartphone Hersteller zu verwenden, da das NFC-Modul sich meist dort drin befindet.\n
+        \n
+        4. In einigen Fällen kann es helfen, wenn Sie unter > Einstellungen > Apps > NFC den Cache und die Daten löschen.\n
+        \n
+        5. Hinweis: Sie können nur ein Smartphone zur gleichen Zeit per NFC mit einem anderen verbinden.\n
+        \n
+        6. Oftmals wird die NFC-Funktion ausgeschaltet, wenn sich das Smartphone im Flugmodus befindet.\n
+        \n
+        7. Kontrollieren Sie daher, ob dieser eingeschaltet ist.\n
+        \n
+        8. Ein einfacher Neustart des Smartphones kann ebenfalls helfen.
+
+             ></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_addplants">addplants</string>
+    <string name="title_activity_hilfe">hilfeActivity</string>
+    <string name="title_activity_mein_garten">meinGarten</string>
+    <string name="title_activity_hilfe2">Hilfe</string>
+    <string name="title_activity_beschreibung_activitiy">Beschreibung</string>
+    <string name="title_activity_impressum2">Impressum</string>
+    <string name="title_activity_faq">FAQ´s</string>
+    <string name="title_activity_impressum_activity">Impressum</string>
+
+
+</resources>

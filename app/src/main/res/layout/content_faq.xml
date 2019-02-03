@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/backgroundutextfeld"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".faqActivity"
+    tools:showIn="@layout/activity_faq">
+
+    <Button
+        android:id="@+id/buttonquestion1"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClickb2"
+        android:text="Ich kann keine NFC´s einlesen?"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonquestion2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonquestion3" />
+
+    <Button
+        android:id="@+id/buttonquestion2"
+        android:layout_width="222dp"
+        android:layout_height="41dp"
+
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="275dp"
+        android:background="@color/colorAccent"
+        android:onClick="onClickb3"
+        android:text="Ich kann keine Bilder hinzufügen?"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonquestion1" />
+
+    <Button
+        android:id="@+id/buttonquestion3"
+        android:layout_width="222dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorAccent"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onClickb1"
+        android:text="Ich bekomme keine Meldung?"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonquestion1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
