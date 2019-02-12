@@ -9,13 +9,13 @@
     tools:context=".faq2activity">
 
     <TextView
-        android:id="@+id/fa3"
+        android:id="@+id/faq3"
         android:layout_width="291dp"
         android:layout_height="39dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="20dp"
 
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:layout_marginBottom="2dp"
@@ -27,7 +27,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/answerfaq2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -37,7 +37,7 @@
         android:layout_height="269dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
@@ -46,9 +46,11 @@
         android:text="@string/Answerfaq1"
         android:textColor="@color/colorPrimaryGrey"
         android:textSize="11sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
         app:layout_constraintBottom_toTopOf="@+id/faqFallsdasnichthilft"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintHorizontal_bias="0.724"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
@@ -69,7 +71,10 @@
         android:paddingLeft="10dp"
         android:paddingBottom="10dp"
         android:text="@string/Fallsnichthilft"
+        android:textColor="@color/colorPrimaryGrey"
         android:textSize="11sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"

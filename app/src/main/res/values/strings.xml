@@ -42,31 +42,39 @@
     <string name="menuimpressum">Impressum</string>
     <string name="faqsheadline">FAQ´s</string>
     <string name="meinGarten">mein Garten</string>
+
     <string name="appbeschreibung">
-        Grüner Daumen Fehlanzeige? \n
+             Grüner Daumen Fehlanzeige? \n
         \n
-        Überwachen Sie Ihre Zimmerpflanzen mit Hilfe\n
-        von Healthy Plants und vergessen Sie nie wieder\n
-        rechtzeitig zu gießen.\n
-        Zu Beginn legen Sie sich\n
-        Ihren eigenen kleinen Garten an.\n
-        Die Pflanzendatenbank enthält über 120 Pflanzen\n
-        aus allen Kategorien (Blumen, Kräuter, Gemüse...).\n
-        Zu jeder Pflanze kennt die App auch\n
-        interessante Pflegetipps.\n
-        Um Verwechslungen zu vermeiden,\n
-        kann jeder Pflanze ein Bild \n
-        und ein zugehöriges NFC Tag zugeordnet werden.\n
-        Anschließend muss nur noch das gewünschte\n
-        Gießintervall bestimmt werden.\n
+\n
+			Mit Hilfe von Healthy Plants hast du in Zukunft all deine Pflanzen im Blick
+            und vergisst nie wieder sie rechtzeitig zu gießen.\n
+\n
+			Zu Beginn legst du ganz einfach deinen eigenen kleinen Garten an und
+            bestimmst selbst wie oft die Pflanze gegossen werden soll.\n
+\n
+			Um Verwechslungen zu vermeiden, kannst du jeder Pflanze einen Namen und
+            zuordnen.\n\n
+\n
+			Das ist auch schon alles!\n
+\n\n
+			Healthy Plants benachrichtigt dich zuverlässig, wenn deine Lieblinge Wasser brauchen.\n
+\n
+			Damit deine Pflanzen in Zukunft noch besser wachsen findest du außerdem ein Pflanzenlexikon mit wertvollen Pflegetipps.\n
+			Um nicht lang nach deiner Pflanze suchen zu müssen, findest du in unserem Starterkit NFC Tags zu den beliebtesten Pflanzen.\n
+\n
+			Klebe das Tag einfach auf deinen Blumentopf.\n
+			Für nützliche Tipps brauchst du jetzt nur noch dein Handy an den Topf halten.\n
+\n
+			So kann nichts mehr schief gehen.\n
         \n
-        Das ist alles.\n
-        \n
-        Healthy Plants benachrichtigt Sie zuverlässig,\n
-        wenn Ihre Pflanze Wasser braucht.\n
-        \n
-        So kann nichts mehr schief gehen.\n
-        Viel Spaß beim gärteln.</string>
+\n
+			Viel Spaß beim gärteln :)\n
+
+
+
+
+    </string>
 
     <string name="Beschreibung">Beschreibung</string>
 
@@ -102,16 +110,34 @@
         3. Ebenso sollten Sie darauf achten, einen originalen Akku von Ihrem Smartphone Hersteller zu verwenden, da das NFC-Modul sich meist dort drin befindet.\n
         \n
         4. In einigen Fällen kann es helfen, wenn Sie unter > Einstellungen > Apps > NFC den Cache und die Daten löschen.\n
-        \n
-        5. Hinweis: Sie können nur ein Smartphone zur gleichen Zeit per NFC mit einem anderen verbinden.\n
-        \n
-        6. Oftmals wird die NFC-Funktion ausgeschaltet, wenn sich das Smartphone im Flugmodus befindet.\n
-        \n
-        7. Kontrollieren Sie daher, ob dieser eingeschaltet ist.\n
-        \n
-        8. Ein einfacher Neustart des Smartphones kann ebenfalls helfen.
 
-             ></string>
+
+             </string>
+
+
+    <string name="pflegetipps">
+Standort\n
+Die als Zimmerpflanze kultivierte Aloe Vera braucht möglichst viel Sonne. Je mehr, desto besser. Außerdem braucht sie einen nährstoffreichen Boden.Die als Zimmerpflanze kultivierte Aloe Vera braucht möglichst viel Sonne. Je mehr, desto besser. Außerdem braucht sie einen nährstoffreichen Boden.
+\n
+\n
+Pflege\n
+Aloe Vera gedeiht am besten an Südfenstern. Sie speichert in ihren dicken Blättern Wasser und kann deshalb längere Zeit ohne gießen überleben.
+\n
+\n
+Überwinterung\n
+Im Laufe des Septembers solltest du die Aloe Vera wieder ins Haus holen. Im Haus kann sie während des Winters ruhig etwas kühler stehen. Bei kühlem Stand sollte das gießen reduziert und das Düngen eingestellt werden. Die Temperatur sollte nicht unter 10° Celsius fallen.
+\n
+\n
+Blütezeit\n
+Die Aloe Vera ist eine immergrüne Pflanze.
+\n
+\n
+
+
+
+             </string>
+
+
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -124,6 +150,7 @@
     <string name="title_activity_impressum2">Impressum</string>
     <string name="title_activity_faq">FAQ´s</string>
     <string name="title_activity_impressum_activity">Impressum</string>
+    <string name="title_activity_view_list_contents">ViewListContents</string>
 
 
 </resources>

@@ -14,7 +14,7 @@
         android:layout_height="37dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="27dp"
         android:layout_marginRight="27dp"
         android:layout_marginBottom="2dp"
@@ -29,23 +29,27 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.095" />
 
     <TextView
         android:id="@+id/answerfaq2"
         android:layout_width="272dp"
-        android:layout_height="288dp"
+        android:layout_height="324dp"
         android:layout_marginStart="8dp"
 
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
         android:ems="10"
         android:fontFamily="casual"
         android:text="@string/answerfaq2"
         android:textColor="@color/colorPrimaryGrey"
         android:textSize="11sp"
+        android:textStyle="bold"
+        app:fontFamily="casual"
+        app:layout_constraintBottom_toTopOf="@+id/faqFallsdasnichthilft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,10 +58,9 @@
         android:id="@+id/faqFallsdasnichthilft"
         android:layout_width="257dp"
 
-        android:layout_height="112dp"
+        android:layout_height="154dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
@@ -67,12 +70,13 @@
         android:paddingBottom="10dp"
         android:text="@string/Fallsnichthilft"
         android:textSize="11sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/answerfaq2"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.228" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
